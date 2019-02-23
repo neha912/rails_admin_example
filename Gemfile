@@ -15,7 +15,10 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'activestorage'
+
 gem 'remotipart', github: 'mshibuya/remotipart'
+# gem 'rails_admin', github: 'dtcristo/rails_admin', branch: 'active_storage'
 gem 'rails_admin', '~> 1.1'
 gem 'rails_admin_rollincode', '~> 1.0'
 gem "devise"
